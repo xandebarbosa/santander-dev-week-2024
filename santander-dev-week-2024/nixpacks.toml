@@ -1,0 +1,8 @@
+[phases.setup]
+commands = ["./gradlew clean"]
+
+[phases.build]
+commands = ["./gradlew build"]
+
+[phases.start]
+commands = ["java -jar build/libs/*.jar"]
